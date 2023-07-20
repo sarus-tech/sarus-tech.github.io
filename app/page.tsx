@@ -104,6 +104,9 @@ remote_dataset = client.dataset(
       </div>
       {/* Second graph */}
       <div className="w-full flex flex-col items-center py-10 z-10">
+        <div className="w-full max-w-7xl p-3">
+          <h2 className="font-serif text-4xl" id="get-started">Data extraction with SQL</h2>
+        </div>
         <div className="w-full max-w-7xl flex flex-row items-center">
           <div className="basis-2/5 p-3">
             <Python>{`# Extract some data
@@ -130,6 +133,9 @@ print(head)`}
       </div>
       {/* Third graph */}
       <div className="w-full flex flex-col items-center py-10 z-10">
+        <div className="w-full max-w-7xl p-3">
+          <h2 className="font-serif text-4xl" id="get-started">DP evaluation (synthetic data) + post-processing</h2>
+        </div>
         <div className="w-full max-w-7xl flex flex-row items-center">
           <div className="flex flex-col basis-2/5 p-3 items-center">
             <Step2NoSD />
@@ -144,6 +150,9 @@ print(head)`}
       </div>
       {/* 4th graph */}
       <div className="w-full flex flex-col items-center py-10 z-10">
+        <div className="w-full max-w-7xl p-3">
+          <h2 className="font-serif text-4xl" id="get-started">Mean computation</h2>
+        </div>
         <div className="w-full max-w-7xl flex flex-row items-center">
         <div className="basis-2/5 p-3">
             <Python>{`# Compute a mean
@@ -161,6 +170,9 @@ print(mean)`}
       </div>
       {/* 4th graph */}
       <div className="w-full flex flex-col items-center py-10 z-10">
+        <div className="w-full max-w-7xl p-3">
+          <h2 className="font-serif text-4xl" id="get-started">Pre-processing + DP evaluation </h2>
+        </div>
         <div className="w-full max-w-7xl flex flex-row items-center">
           <div className="flex flex-col basis-2/5 p-3 items-center">
             <Step3NoAlt />
