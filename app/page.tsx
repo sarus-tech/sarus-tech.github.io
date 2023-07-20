@@ -25,6 +25,24 @@ export default function Home() {
         </div>
       </div>
       {/* Intro */}
+      <div className="w-full flex flex-col items-center py-10 z-10">
+        <div className="w-full max-w-7xl text-center py-10">
+          <h1 className="font-serif text-6xl my-3">Sarus computation graphs examples</h1>
+          <p className="font-sans text-4xl my-3">with DP variants computations</p>
+        </div>
+        <div className="w-80 flex justify-between py-10 content-center">
+          <div className="text-lighter-red hover:text-light-red text-xl"><a href="https://sarus.tech">http://sarue.tech</a></div>
+          <Twitter />
+        </div>
+        <div className="w-full max-w-7xl p-3">
+          <p className="text-xl my-3">Sarus is about a data-owner opening a dataset to a
+          data-practitioner to interact with in a private way.</p>
+          <p className="text-xl my-3">With Sarus, the code the data-practitioner would like to run on
+          the data is parsed into a computation graph and sent-over to Sarus instance next to the data.
+          The computation graph is compiled before it is evaluated
+          to provide privacy protection: usually some level of Differential Privacy.</p>
+        </div>
+      </div>
       {/* <div className="w-full flex flex-col items-center bg-main-green text-lighter-green py-10"> */}
       <div className="w-full flex flex-col items-center py-10 z-10">
         <div className="w-full max-w-7xl p-3">
@@ -54,14 +72,13 @@ mean = df.sales_value.mean()
 print(mean)
 `}
             </Python>
-          <p className="text-xl my-3">Then evaluates two values by printing them.</p>
         </div>
       </div>
       {/* First graph */}
       <div className="w-full flex flex-col items-center py-10 z-10">
         <div className="w-full max-w-7xl p-3">
           <h2 className="font-serif text-4xl" id="get-started">Dataset selection</h2>
-          <p className="text-xl my-3">The selected dataset is already transformed by the dataowner.</p>
+          <p className="text-xl my-3">The selected dataset comes already transformed by the data-owner for preparation.</p>
         </div>
         <div className="w-full max-w-7xl flex flex-row items-center">
           <div className="basis-2/5 p-3">
