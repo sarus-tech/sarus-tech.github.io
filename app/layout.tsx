@@ -26,8 +26,8 @@ const fira_code = Fira_Code({
 })
 
 export const metadata = {
-  title: 'Qrlew SQL Framework',
-  description: 'Manipulate complex SQL queries as simple composed computation blocks',
+  title: 'Sarus Tech',
+  description: 'Protect data, Unlock value',
 }
 
 // Setup font awesoms
